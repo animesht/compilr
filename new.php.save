@@ -1,0 +1,4 @@
+<?php 
+
+  $command = "tesseract $processed_photo_output_path $processed_code_output_path -l eng_h";
+  exec($command);
